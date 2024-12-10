@@ -1,0 +1,12 @@
+:root {
+  --brownish-color: #a0522d;
+  --theme: #f5f5f5;
+  --textTheme: #555;
+  --emphasizedText: #d9534f;
+  --productPageOpacity: 1;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}

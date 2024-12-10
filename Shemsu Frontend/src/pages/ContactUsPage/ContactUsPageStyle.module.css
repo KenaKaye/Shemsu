@@ -1,0 +1,52 @@
+.contactUsPage {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--theme);
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--theme);
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.contactForm h2 {
+  color: var(--brownish-color);
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contactForm button {
+  padding: 10px;
+  background-color: var(--brownish-color);
+  color: var(--theme);
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.contactForm button:hover {
+  background-color: #8b4513;
+}

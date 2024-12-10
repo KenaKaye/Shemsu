@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: var(--brownish-color);
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.logo a {
+  text-decoration: none;
+  color: var(--theme);
+}
+
+.navLinks {
+  display: flex;
+  gap: 24px;
+  margin-right: 24px;
+}
+
+.navLinks a {
+  color: var(--theme);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .bigScreen {
+    display: none;
+  }
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}

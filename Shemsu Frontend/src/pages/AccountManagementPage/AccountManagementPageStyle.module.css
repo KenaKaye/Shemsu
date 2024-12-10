@@ -1,0 +1,52 @@
+.accountManagementPage {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--theme);
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--theme);
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.themeChanger {
+  margin: -140px 20px 40px 0;
+  align-self: flex-end;
+  color: var(--theme);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+  margin-top: 20px;
+}
+
+.logoutButton {
+  background-color: blue;
+  color: white;
+  margin-top: 10px;
+}
